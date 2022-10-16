@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de input</title>
+</head>
+
+<body>
+    <h1 align="center">Cadastro do cliente</h1>
+    <hr>
+    <form align="center">
+        <p>
+            <label>Nome</label><br>
+            <input type="text" name="nomeCompleto" placeholder="Digite seu nome">
+        </p>
+        <p>
+            <label>E-mail</label><br>
+            <input type="email" placeholder="pessoa@gmail.com">
+        </p>
+        <p>
+            <label>URL de Portfolio online</label><br>
+            <input type="url" placeholder="http://www.nome.com">
+        </p>
+        <p>
+            <label>Data de Nascimento</label><br>
+            <input type="date" placeholder>
+        </p>
+        <p>
+            <label for="slctdependentes">Quantidade de Dependentes</label><br>
+            <select name="dependentes" id="slctdependentes">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </p>
+        <p>
+            <label>Cor Preferida</label><br>
+            <input type="color">
+        </p>
+        <p>
+            <label>Telefone Celular</label><br>
+            <input type="tel" placeholder="(99) 99999-9999">
+        </p>
+        <p>
+            <label>Receber Promoções</label><br>
+            <input type="checkbox">
+        </p>
+        <p>
+            <label for="slctestados">Selecione o Estado</label><br>
+            <select name="estado" id="slctestado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </p>
+        <p>
+            <label for="txtMiniBiografia">Mini Biografia</label><br>
+            <textarea name="MiniBiografia" id="txtMiniBiografia" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="Submit" value="Enviar">
+        </p>
+
+
+    </form>
+
+</body>
+
+</html>

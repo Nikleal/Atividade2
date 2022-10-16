@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {font-family:"Open+Sans, Caveat";
+    background-color: blanchedalmond;
+
+}
+
+
+#tr1 {
+    font-size: 15px;
+    color: bisque;
+    padding: 10px;
+    background-image: linear-gradient(100deg, rgb(8, 0, 113), rgb(154, 5, 5));
+}
+
+#h11 {
+    font-size: 30px;
+}
+
+#img1 {
+    border-radius: 100%;
+
+}
+
+#table1 {
+    margin: 0% 10% 0% 10%;
+}
+
+
+
+#img2 {
+    border-radius: 5%;
+}
+
+#tr2 {
+    font-family: "Open+Sans";
+}
+
+a {
+    color: black;
+    font-family: "Open+Sans";
+    text-decoration: none;
+}
+
+#ifes {
+    background-color: white;
+}
+
+#borda {
+    font-family: "Caveat";
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(40, 37, 37);
+    border: 10px;
+}
+
+#borda1 {
+    font-family: "OpenSans";
+    color:goldenrod;
+    background-color: rgb(40, 37, 37);
+
+    border: 10px;
+}
+
+#botom {
+    border: solid 1px black;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 35px;
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(255, 255, 255)
+}
+
+a :active {
+    color: rgb(0, 0, 0);
+}
+
+button.active {
+    background-color: #000;
+}
+
+button{border: solid 1px black;
+    padding: 5px;
+    border-radius: 10px;}
+
+
+.hero-text{font-family: caveat
+    color white;
+background-color: #2b2a2a;
+width: 410px;
+border-radius: 100px;}
+
+.hero-text h1{margin-left: 20px; font-family: "Open Sans";}
+.hero-text img{margin-right: 20px; width: 400;}
+
+#centro{text-align: center;}
+
+
+  .p {
+      font-family: "open sans";
+      font-size: 20px;
+      text-align: left;
+  }
